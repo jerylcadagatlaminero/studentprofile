@@ -1,0 +1,76 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+header {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.profile-container {
+    background-color: white;
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.profile-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.profile-container h2 {
+    color: #243b55;
+    margin-bottom: 8px;
+}
+
+.course {
+    color: #777;
+    margin-bottom: 25px;
+}
+
+section {
+    text-align: left;
+    margin-top: 25px;
+}
+
+section h3 {
+    color: #243b55;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #243b55;
+    padding-bottom: 5px;
+}
+
+section p {
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
